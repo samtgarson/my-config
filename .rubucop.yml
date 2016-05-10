@@ -1,5 +1,3 @@
-inherit_from: 'https://raw.githubusercontent.com/houndci/hound/master/config/style_guides/ruby.yml'
-
 AllCops:
   DisplayCopNames: true
   DisplayStyleGuide: true
