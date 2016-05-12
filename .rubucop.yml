@@ -55,5 +55,5 @@ Style/NestedParenthesizedCalls:
 Style/StringLiterals:
   EnforcedStyle: single_quotes
 
-Style/AndOr
+Style/AndOr:
   Enabled: false
