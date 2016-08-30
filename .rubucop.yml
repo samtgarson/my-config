@@ -60,3 +60,6 @@ Style/AndOr:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+Style/IndentationConsistency:
+  EnforcedStyle: rails
