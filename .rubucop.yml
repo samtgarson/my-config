@@ -57,3 +57,6 @@ Style/StringLiterals:
 
 Style/AndOr:
   Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
