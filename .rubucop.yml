@@ -7,7 +7,10 @@ AllCops:
     - 'vendor/**/*'
 
 Rails:
-    Enabled: true
+  Enabled: true
+
+Rails/OutputSafety:
+  Enabled: false
 
 Lint/EndAlignment:
   Enabled: true
@@ -16,16 +19,7 @@ Lint/EndAlignment:
 Metrics/AbcSize:
   Enabled: false
 
-Metrics/ClassLength:
-  Enabled: false
-
-Metrics/CyclomaticComplexity:
-  Enabled: false
-
 Metrics/LineLength:
-  Enabled: false
-
-Metrics/MethodLength:
   Enabled: false
 
 Metrics/ModuleLength:
