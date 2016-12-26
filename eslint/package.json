@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-samtgarson",
+  "version": "0.0.1",
+  "description": "Personal eslint config",
+  "main": ".eslintrc.shared.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samtgarson/my-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Sam Garson <samtgarson@gmail.com> (https://github.com/samtgarson)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samtgarson/my-config/issues"
+  },
+  "homepage": "https://github.com/samtgarson/my-config#readme",
+  "peerDependencies": {
+      "eslint": ">= 3",
+      "eslint-config-airbnb-base": ">= 11.0.0"
+  }
+}
