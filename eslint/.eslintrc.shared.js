@@ -1,7 +1,10 @@
 module.exports = {
   rules: {
-    'comma-dangle': ['error', 'never'],
+    'comma-dangle': 'off',
     'space-before-function-paren': ['error', 'always'],
-    'semi': ['error', 'never'],
+    'semi': 'off',
+    'no-underscore-dangle': ['error', { 'allowAfterSuper': true }],
+    'no-return-assign': 'off',
+    'ava/no-skip-test': 'off'
   }
 }
