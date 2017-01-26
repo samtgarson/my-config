@@ -7,7 +7,7 @@ module.exports = {
     'no-return-assign': 'off',
     'ava/no-skip-test': 'off',
     'indent': ['error', 2],
-    'object-curly-spacing': ['always', { 'arraysInObjects': false }],
+    'object-curly-spacing': ['error', 'always', { 'arraysInObjects': false }],
     'curly': ['error', 'multi-or-nest']
   }
 }
