@@ -3,7 +3,7 @@ module.exports = {
     'comma-dangle': 'off',
     'space-before-function-paren': ['error', 'always'],
     'semi': 'off',
-    'no-underscore-dangle': ['error', { 'allowAfterSuper': true }],
+    'no-underscore-dangle': 'off',
     'no-return-assign': 'off',
     'ava/no-skip-test': 'off',
     'indent': ['error', 2],
