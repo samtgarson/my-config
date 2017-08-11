@@ -14,7 +14,7 @@ Rails/OutputSafety:
 
 Lint/EndAlignment:
   Enabled: true
-  AlignWith: keyword
+  EnforcedStyleAlignWith: keyword
 
 Metrics/AbcSize:
   Enabled: false
