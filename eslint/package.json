@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-samtgarson",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "Personal eslint config",
   "main": ".eslintrc.shared.js",
   "repository": {
@@ -16,7 +16,17 @@
     "url": "https://github.com/samtgarson/my-config/issues"
   },
   "homepage": "https://github.com/samtgarson/my-config#readme",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-import-resolver-jest": "https://github.com/samtgarson/eslint-import-resolver-jest",
+    "eslint-plugin-html": "^3.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.4.1"
+  },
   "peerDependencies": {
-      "eslint": ">= 3"
+    "eslint": ">= 4"
   }
 }
